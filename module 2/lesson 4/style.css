@@ -1,0 +1,52 @@
+body {
+    font-family: 'ariel', sans-serif;
+    background-color: #0D1117;
+    color: #C9D1D9;
+}
+
+h1 {
+    color: #58A6FF;
+}
+
+/* attribute selector */
+a {
+    color: rgba(101, 205, 231, 0.658);
+    text-decoration: none;
+}
+a:hover {
+    color: #1F6FEB;
+}
+/* child selector */
+ul>li {
+    font-weight:bold;
+}
+/* sibling selector */
+h1+p {
+    background-color: #161B22;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* :hover pseudo-class */
+ul li:hover {
+    color: #0d5ca7c2;
+}
+/* :nth-child(n) pseudo-class */
+p:not(:first-of-type) {
+    text-decoration:underline;
+}
+/* ::before pseudo-element */
+ul li::before {
+    content:"🚀";
+}
+/* ::after pseudo-element */
+a::after {
+    content:"🧳"
+}
+/* ::first-letter pseudo-element */
+p::first-letter {
+    font-size:200%;
+    color:lightsalmon;
+}
+
+
+
