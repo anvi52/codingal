@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #252525;
+    font-family:"baloo tamma 2", cursive;
+}
+/* main heading font 8/
+.m-heaing {
+font-family: "roboto slab", serif;
+}
+/* navigation */
+.navigation-link {
+    border: 2px solid transparent;
+}
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #f5ba09;
+    transition: 0.5s ease;
+}

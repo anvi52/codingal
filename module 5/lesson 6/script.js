@@ -9,7 +9,7 @@ function setScreenValue(value) {
 // Calculates and displays the result
 function calculateResult() {
     const resultElement = document.getElementById("result");
-    const expression = resultElement.Value.trim();
+    const expression = resultElement.value.trim();
     // Check for empty input
     if(expression === '') {
         resultElement.value = 'Enter an expression';
