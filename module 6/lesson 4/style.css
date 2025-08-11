@@ -1,0 +1,12 @@
+/* social media section */
+#social-media {
+    background: #313552;
+}
+/* add color to the social media link */
+.media_ Link {
+padding: 1rem;
+max-width: 15rem;
+margin-left: 1rem;
+border: 2px solid #ffba09;
+border-radius:0.5rem;
+}
