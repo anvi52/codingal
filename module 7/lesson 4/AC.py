@@ -9,7 +9,7 @@ while temp > 0:
  sum_num += digit ** order
  temp //= 10
 
- if sum_num == num:
+if sum_num == num:
   print(num, "is an armstrong number")
- else:
-  print(num,"is NOT an armstrong number")
+else:
+  print(num,"is NOT an armstrong number") 
