@@ -1,7 +1,7 @@
 import turtle
 t = turtle.Turtle()
 s = turtle.Screen()
-colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']
+colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow','pink','grey']
 s.bgcolor('black')
 t.speed("fastest")
 while True:
